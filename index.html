@@ -11,7 +11,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Cronômetro</h1>
+    <div class="container">
+        <h1>Cronômetro</h1>
+            <div class="timer">
+                <div class="time" id="minutes">00</div>
+                <div class="separator">:</div>
+                <div class="time" id="seconds">00</div>
+                <div class="separator">:</div>
+                <div class="time" id="miliseconds">000</div>
+            </div>
+    </div>
+
+    <div class="buttons">
+        <button class="botao" id="startbot">Iniciar</button>
+        <button class="botao" id="pausebot">Pausar</button>
+        <button class="botao" id="continuebot">Continuar</button>
+        <button class="botao" id="resetbot">Resetar</burron>
+    </div>
 </body>
 <script src="script.js" defer></script>
 </html>
